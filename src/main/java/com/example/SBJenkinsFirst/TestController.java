@@ -12,7 +12,7 @@ public class TestController {
  @GetMapping("/test")
  public ResponseEntity<Object> getMethodName() {
 	 System.out.println("call test endpoint");
-		System.out.println("main2");
+		System.out.println("main2...");
      return ResponseEntity.ok("success");
  }
 }
