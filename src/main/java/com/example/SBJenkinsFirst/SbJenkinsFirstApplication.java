@@ -9,9 +9,11 @@ public class SbJenkinsFirstApplication {
 	public static Logger logger=LoggerFactory.getLogger(SbJenkinsFirstApplication.class);
 	@PostConstruct
 	public void init(){
+		
 	 logger.info("Application started...");
 	}
 	public static void main(String[] args) {
+		System.out.println("main");
 		logger.info("Application executed...");
 		SpringApplication.run(SbJenkinsFirstApplication.class, args);
 	}
